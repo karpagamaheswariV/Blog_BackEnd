@@ -174,7 +174,7 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());  // To read cookies sent by the client
 
-mongoose.connect('mongodb://127.0.0.1:27017/Blog_App', {
+mongoose.connect('mongodb+srv://karpagammaheswari12:Karpaga2005@karpaga.9yhap.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => console.log('Connected to MongoDB'))
